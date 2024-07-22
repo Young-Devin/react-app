@@ -1,0 +1,165 @@
+/*Home Page Start*/
+.side-menu{
+    width: 120px;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+    position: fixed;
+    margin-top: 50px;
+    z-index: 1;
+  }
+  .side-menu > ul {
+    min-height: 800px;
+}
+.side-menu > ul > li {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(200, 200, 200);
+    }
+
+}
+
+.banner-top{
+    background-color: darkturquoise;
+    background-color: rgb(228, 228, 228);
+    border-bottom: 1px solid;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    margin-bottom: 0;
+    height: 50px;
+    z-index: 1;
+}
+.main-container{
+    padding-left: 110px;
+    padding-top: 60px;
+    position: relative;
+    padding-bottom: 2rem;
+
+    video {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+    }
+}
+.align_center{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg_transparency{
+    background-color: transparent;    
+}
+
+.row {
+    padding: 2rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.card {
+    height:45vh !important;
+}
+
+.card-img-top {
+    height: 25vh !important;
+}
+
+
+/*Home Page End*/
+/*Banner Page Start*/
+.intro_banner{
+    /* background-image: url("./Images/intro_banner.jpg"); */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    text-align: center;
+    color: white;
+    height: 300px;
+    
+}
+.project_banner{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-image: url("./Images/project_banner.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    border-radius: 3rem;
+    height: 600px;
+    margin: 0 2rem;
+
+    video {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+    }
+}
+.work_banner{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-image: url("./Images/work_banner.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    border-radius: 3rem;
+    height: 600px;
+    margin: 2rem 2rem 0 2rem;
+
+    video {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+    }
+
+    .imageDiv {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: 80%;
+          }
+      }
+
+    
+}
+.banner_center_text{
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Banner Page End*/
+/*About Me Start*/
+.center_div{
+    text-align: center;
+}
+.sub_header{
+    text-decoration: underline;
+}
+.border_right{
+    border-right: 1px Solid;
+}
+
+.desc {
+    padding: 0 1rem;
+}
+/*About Me End*/
