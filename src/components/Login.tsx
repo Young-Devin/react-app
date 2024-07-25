@@ -9,7 +9,7 @@ const Login = () => {
   const [action, setAction] = useState("Login");
   const initialValues = { username: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
-  const [formErrors, setFormErrors] = useState({});
+  const [formErrors, setFormErrors] = useState({ username: "", password: "" });
   const [isSubmit, setIsSubmit] = useState(false);
 
   let navigate = useNavigate();
@@ -43,7 +43,10 @@ const Login = () => {
     }
   }, [formErrors]);
   const validate = (values: { username: any; password: any }) => {
-    const errors = {};
+    const errors = {
+      username: "",
+      password: "",
+    };
     const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
     if (action === "Login" && !values.username) {
       errors.username = "Username is required!";
