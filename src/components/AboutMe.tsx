@@ -122,7 +122,7 @@ const AboutMe = () => {
               google spreadsheet into a JSON formatted object.
             </p>
             <h5>Senior Developer</h5>
-            <h6>Oct. 2021 – May 2024</h6>
+            <h6>Oct. 2021 – May. 2024</h6>
             <p>CommonOffice, Toronto, ON</p>
             <p>
               Communicate with 3 to 4 clients weekly as a project manager and
