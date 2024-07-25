@@ -23,7 +23,7 @@ const Home = () => {
         onSelectItem={handleSelectedItem}
       />
       <div className="main-container">
-        <video src={video} muted autoPlay loop type="video/mp4"></video>
+        <video src={video} muted autoPlay loop></video>
         <Banner
           bannerTitle="Welcome"
           bannerContent="Hi my name is Devin Young and this is my website."
