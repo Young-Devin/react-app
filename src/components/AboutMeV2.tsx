@@ -26,7 +26,7 @@ const AboutMe = () => {
           <br></br>
           <p className="desc">
             {" "}
-            My Name is Devin Young and I am inspiring Software Developer looking
+            My name is Devin Young and I am inspiring Software Developer looking
             to make a difference in the career that I have chosen. From previous
             work experience I have worked with countless clients to build
             websites that exceed the clients needs and expectations. Outside of
