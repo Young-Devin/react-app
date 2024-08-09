@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <ListGroup
         items={items}
-        heading="Welcome to my Portfolio"
+        heading="Welcome To My Portfolio"
         onSelectItem={handleSelectedItem}
       />
       <div className="main-container">
@@ -44,7 +44,7 @@ const Home = () => {
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <p className="card-text">Sneak-a-peak</p>
+                  <p className="card-text">Sneak-A-Peak</p>
                   <ul>
                     <li className="websiteLink">
                       <a
