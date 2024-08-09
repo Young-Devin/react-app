@@ -157,14 +157,20 @@ const AboutMe = () => {
                 <span>
                   <TiLocation /> Scarborough, ON M1L 1P2
                 </span>
-                <a href="https://www.linkedin.com/in/devin-young-170209162/">
+                <a
+                  href="https://www.linkedin.com/in/devin-young-170209162/"
+                  target="_blank"
+                >
                   <IoIosLink />{" "}
                   https://www.linkedin.com/in/devin-young-170209162/
                 </a>
-                <a href="https://devins-portfolio.onrender.com/">
+                <a
+                  href="https://devins-portfolio.onrender.com/"
+                  target="_blank"
+                >
                   <IoIosLink /> https://devins-portfolio.onrender.com/
                 </a>
-                <a href="https://github.com/Young-Devin">
+                <a href="https://github.com/Young-Devin" target="_blank">
                   <IoIosLink /> https://github.com/Young-Devin
                 </a>
               </div>

@@ -47,12 +47,18 @@ const Home = () => {
                   <p className="card-text">Sneak-a-peak</p>
                   <ul>
                     <li className="websiteLink">
-                      <a href="https://sneak-a-peek.onrender.com/">
+                      <a
+                        href="https://sneak-a-peek.onrender.com/"
+                        target="_blank"
+                      >
                         Link to Website
                       </a>
                     </li>
                     <li className="gitLink">
-                      <a href="https://github.com/Young-Devin/foodmine-react.js">
+                      <a
+                        href="https://github.com/Young-Devin/foodmine-react.js"
+                        target="_blank"
+                      >
                         Link to github repository
                       </a>
                     </li>
@@ -76,7 +82,10 @@ const Home = () => {
                       </a>
                     </li> */}
                     <li className="gitLink">
-                      <a href="https://github.com/Young-Devin/travel">
+                      <a
+                        href="https://github.com/Young-Devin/travel"
+                        target="_blank"
+                      >
                         Link to github repository
                       </a>
                     </li>
@@ -100,7 +109,10 @@ const Home = () => {
                       </a>
                     </li> */}
                     <li className="gitLink">
-                      <a href="https://github.com/Young-Devin/first-descendant">
+                      <a
+                        href="https://github.com/Young-Devin/first-descendant"
+                        target="_blank"
+                      >
                         Link to github repository
                       </a>
                     </li>
