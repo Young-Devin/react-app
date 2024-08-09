@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import placeholderImage from "../Images/placeholder_image.jpg";
 import sneakapeek from "../Images/sneakapeek.jpg";
 import travelWebsite from "../Images/travel_website.jpg";
+import firstDescendant from "../Images/first_descendant.jpg";
 import CommonOfficeLogo from "../Images/commonoffice_logo.jpg";
 import PearsonLogo from "../Images/pearson_logo.png";
 import video from "../Images/project_video.mp4";
@@ -87,11 +88,23 @@ const Home = () => {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src={placeholderImage}
+                  src={firstDescendant}
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <p className="card-text">TBD</p>
+                  <p className="card-text">The First Descendant</p>
+                  <ul>
+                    {/* <li className="websiteLink">
+                      <a href="https://sneak-a-peek.onrender.com/">
+                        Link to Website
+                      </a>
+                    </li> */}
+                    <li className="gitLink">
+                      <a href="https://github.com/Young-Devin/first-descendant">
+                        Link to github repository
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

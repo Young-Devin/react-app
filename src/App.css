@@ -170,3 +170,170 @@ li {
     padding: 0 1rem;
 }
 /*About Me End*/
+
+/*About Me V2 Start*/
+
+
+.resumeCotainer {
+    padding: 0 1rem;
+}
+
+.resumeHeader {
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(51, 102, 153);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstColumn {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.summary {
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.subHeader {
+    color: darkslategray;
+}
+
+.workHistory {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobDesc {
+    padding: 1rem 0 0 1.3rem;
+}
+
+.jobDesc > li {
+    list-style-type: disc;
+}
+
+.academicProjects {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.projectsList {
+    padding: 1rem 0 0 1.3rem;
+}
+
+.projectsList > li {
+    list-style-type: disc;
+}
+
+.secondColumn {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 40%;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.contactLinks > a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.skillList {
+    padding: 1rem 0 0 1.3rem;
+}
+
+.skillList > li {
+    list-style-type: disc;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
+
+.gradingIcon {
+    font-size: 24px;
+    width: 2rem;
+    color: darkgreen;
+    padding: 0 0 0 0.2rem;
+}
+
+.references {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+/*About Me V2 End*/
+
+@media print {
+    .side-menu {
+        display: none;
+    }
+
+    .banner-top {
+        display: none;
+    }
+
+    .center_div {
+        display: none;
+    }
+
+    .center_div > img {
+        display:none
+    }
+
+    hr {
+        display: none
+    }
+
+    .desc {
+        display: none;
+    }
+}
