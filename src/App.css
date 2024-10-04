@@ -78,6 +78,11 @@ li {
     height: 25vh !important;
 }
 
+.card-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /*Home Page End*/
 /*Banner Page Start*/
