@@ -68,7 +68,7 @@ const AboutMe = () => {
                 <div className="job">
                   <h5 className="jobTitle">CommonOffice - Senior Developer</h5>
                   <span className="location">Toronto, ON</span>
-                  <span className="duration">10/2021 - 05/2024</span>
+                  <span className="duration">10/2021 - Current</span>
                   <ul className="jobDesc">
                     <li>
                       Communicated with 3 to 4 clients weekly as a project
@@ -82,10 +82,14 @@ const AboutMe = () => {
                       vacation, performance, recruitment, scheduling, timesheet,
                       training, and e-learning tracking.
                     </li>
+                    <li>
+                      Led a project utilizing Java and API requests to integrate
+                      CommonOffice's HRIS with an external payroll provider.
+                    </li>
                   </ul>
                 </div>
 
-                <div className="job">
+                <div className="hideJob">
                   <h5 className="jobTitle">Champs Sports - Sales Associate</h5>
                   <span className="location">Scarborough, ON</span>
                   <span className="duration">08/2020 - 03/2022</span>

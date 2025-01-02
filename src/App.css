@@ -227,6 +227,9 @@ li {
     border-bottom: 1px solid;
     padding: 1rem;
 }
+.hideJob{
+    display:none;
+}
 
 .job {
     display: flex;
